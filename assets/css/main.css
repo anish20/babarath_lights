@@ -3241,14 +3241,15 @@ section {
 
   .hero-animated .btn-get-started {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     display: inline-block;
-    padding: 8px 15px;
+    padding: 11px 70px;
     border-radius: 4px;
     transition: 0.5s;
     color: var(--color-white);
     background: var(--color-primary);
     font-family: var(--font-secondary);
+
 }
 .header .logo h1 {
   font-size: 18px;
@@ -3259,10 +3260,10 @@ section {
 }
 
 .header .btn-getstarted, .header .btn-getstarted:focus {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--color-white);
   background: var(--color-primary);
-  padding: 5px 8px;
+  padding: 5px 20px;
   border-radius: 4px;
   transition: 0.3s;
   font-family: var(--font-secondary);
@@ -3287,5 +3288,35 @@ section {
 .about h3 {
   font-size: 22px;
 }
+.callInfo{
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center;
+  gap: 20px !important;
+}
+
+.hero-animated .btn-watch-video {
+  
+}
+/* .hero-animated .btn-watch-video:hover{
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 11px 70px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: var(--color-white);
+  background: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+.hero-animated .btn-watch-video .bi{
+  color: var(--color-white);
+  font-size: 20px;
+}
+.hero-animated .btn-watch-video .bi:hover{
+  color: var(--color-white);
+  font-size: 20px;
+} */
 
 }
