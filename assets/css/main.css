@@ -3390,9 +3390,11 @@ section {
   overflow: hidden;
   position: relative;
   filter: contrast(110%) brightness(190%);
-  padding: 12px 15px;
-  /* background-color: #00000052; */
+  padding: 16px 8px;
+  background-color: #00000052;
+  width: 100%;
 }
+ 
 /* .hero-animated .btn-watch-video:hover{
   font-size: 16px;
   font-weight: 600;
