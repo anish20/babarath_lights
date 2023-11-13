@@ -3238,13 +3238,16 @@ section {
 .text-effect {
   overflow: hidden;
   position: relative;
-  filter: contrast(110%) brightness(190%);
   padding: 0 15px;
+  filter: contrast(80%) brightness(200%);
+  /* background-color: #00000052; */
+  background-color: black;
 }
 .neon {
   position: relative;
   background: transparent;
   color: transparent;
+  
 }
 .neon::before, .neon::after {
   content: attr(data-text);
@@ -3378,10 +3381,10 @@ section {
 
 .neon {
   font: 600 20px 'Lato', sans-serif;
-  text-transform: capitalize;
+  text-transform: uppercase;
   text-align: center;
   margin:0;
-  color: #fff;
+  /* color: #fff; */
 }
 .hero-animated{
   padding: 90px 0 30px;
@@ -3389,9 +3392,10 @@ section {
 .text-effect {
   overflow: hidden;
   position: relative;
-  filter: contrast(110%) brightness(190%);
+  filter: contrast(80%) brightness(200%);
   padding: 16px 8px;
-  background-color: #00000052;
+  /* background-color: #00000052; */
+  background-color: black;
   width: 100%;
 }
  
